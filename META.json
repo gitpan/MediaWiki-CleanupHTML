@@ -1,0 +1,48 @@
+{
+   "abstract" : "cleanup the MediaWiki-generated HTML from MediaWiki\nembellishments.",
+   "author" : [
+      "Shlomi Fish <shlomif@cpan.org>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.120630",
+   "license" : [
+      "mit"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "MediaWiki-CleanupHTML",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "HTML::TreeBuilder::XPath" : "0",
+            "Scalar::Util" : "0",
+            "Test::More" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.38"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "perl" : "5.006"
+         }
+      }
+   },
+   "provides" : {
+      "MediaWiki::CleanupHTML" : {
+         "file" : "lib/MediaWiki/CleanupHTML.pm",
+         "version" : "v0.0.1"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://www.opensource.org/licenses/mit-license.php"
+      ]
+   },
+   "version" : "v0.0.1"
+}

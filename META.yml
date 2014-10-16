@@ -1,26 +1,26 @@
 ---
-abstract: "cleanup the MediaWiki-generated HTML from MediaWiki\nembellishments."
+abstract: 'cleanup the MediaWiki-generated HTML from MediaWiki'
 author:
   - 'Shlomi Fish <shlomif@cpan.org>'
 build_requires:
-  HTML::TreeBuilder::XPath: 0
-  Scalar::Util: 0
-  Test::More: 0
+  HTML::TreeBuilder::XPath: '0'
+  Scalar::Util: '0'
+  Test::More: '0'
 configure_requires:
-  Module::Build: 0.38
+  Module::Build: '0.39'
 dynamic_config: 1
-generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.120630'
+generated_by: 'Module::Build version 0.421, CPAN::Meta::Converter version 2.142060'
 license: mit
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
+  version: '1.4'
 name: MediaWiki-CleanupHTML
 provides:
   MediaWiki::CleanupHTML:
     file: lib/MediaWiki/CleanupHTML.pm
-    version: v0.0.1
+    version: v0.0.2
 requires:
-  perl: 5.006
+  perl: '5.006'
 resources:
   license: http://www.opensource.org/licenses/mit-license.php
-version: v0.0.1
+version: v0.0.2
